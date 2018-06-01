@@ -57,4 +57,4 @@ app.get('*', (req, res) => {
   res.status(404).end('Not found.')
 })
 
-app.listen(8080)
+app.listen(process.env.PORT || 8080)
