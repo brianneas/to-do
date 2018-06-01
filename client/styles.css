@@ -1,0 +1,15 @@
+.list {
+  margin: 10px;
+}
+
+.doneRemoving {
+  display: none;
+}
+
+.listLine {
+  display: inline;
+}
+
+.removeButton {
+  margin-left: 10px;
+}
